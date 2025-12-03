@@ -1,20 +1,26 @@
-# Dependencies
-node_modules/
-*/node_modules/
-
-# Environment variables (SENSITIVE DATA)
-.env
-.env.local
-*/.env
-
-# Build outputs
-dist/
-build/
-
 # Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Mac system files
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.env
